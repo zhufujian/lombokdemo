@@ -2,18 +2,19 @@
 ## springmvc+Slf4j+lombok
 
 ### Lombok 简介：
-####lombok 以简单的注解的形式来精简 java 代码，提升开发人员生产效率的辅助工具
+#### lombok 以简单的注解的形式来精简 java 代码，提升开发人员生产效率的辅助工具
 
-###lombok 安装：
+### lombok 安装：
 
-####(1) 方法一：双击下载下来的 JAR包安装 lombok安装目录为eclipse安装路径，安装完成后，查看eclipse.ini 是否出现配置：
+#### (1) 方法一：双击下载下来的 JAR包安装 lombok安装目录为eclipse安装路径，安装完成后，查看eclipse.ini 是否出现配置：
     
 	-Xbootclasspath/a:lombok.jar	
 	-javaagent:lombok.jar
 		
-####(2) 方法二：eclipse 手动安装 lombok
+#### (2) 方法二：eclipse 手动安装 lombok
 
    a. 将 lombok.jar 复制到eclipse.ini 所在的文件夹目录下
+   
    b. 打开 eclipse.ini，在最后面插入以下两行并保存：
     
         -Xbootclasspath/a:lombok.jar
@@ -30,8 +31,8 @@
         <version>1.16.10</version>
     </dependency>
 	</dependencies>		
-###lombok 注解
-####Lombok 注解在线帮助文档：http://projectlombok.org/features/index
+### lombok 注解
+#### Lombok 注解在线帮助文档：http://projectlombok.org/features/index
 
 ****@Data：注解在类上；自动为所有字段添加@ToString, @EqualsAndHashCode, @Getter方法，为非final字段添加@Setter,和@RequiredArgsConstructor****
 
